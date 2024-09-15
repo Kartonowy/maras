@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "dotenv/config.js";
 import { REST, Routes, Client, GatewayIntentBits } from "discord.js";
 import loadCommands from "./utils/load_commands.js";
 import { setConfig } from "./utils/context.js";

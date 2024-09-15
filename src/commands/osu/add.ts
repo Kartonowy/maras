@@ -20,6 +20,7 @@ export default new Command("add", "Adds match", ApplicationCommandOptionType.Sub
       interaction.reply("Invalid Date")
     }
 
+
     interaction.reply("Match (notyet) added to database!")
   } else {
     interaction.reply("Invalid date format, please try again and use 'YYYY-MM-DD hh-mm'")

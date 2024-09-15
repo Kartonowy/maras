@@ -3,3 +3,5 @@ node_modules
 *.js
 drizzle
 *.db
+package-lock.json
+bun.lockb
